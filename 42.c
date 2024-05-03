@@ -39,7 +39,7 @@ for(int i=0;i<x;i++){
 int counted1[100]={0};
 for(int i=0;i<x;i++){
     count=0;
-    if(counted[a.arr2[i]]==0){
+    if(counted1[a.arr2[i]]==0){
     for(int j=0;j<x;j++){
         if(a.arr2[i]==a.arr2[j]){
             count=count+1;
@@ -47,7 +47,8 @@ for(int i=0;i<x;i++){
         else{
             continue;
         }
-    counted1[a.arr2[i]]=1;
+        counted1[a.arr2[i]]=1;
+
     }
     printf("%d is %d times arr2\n",a.arr2[i],count);
     }
