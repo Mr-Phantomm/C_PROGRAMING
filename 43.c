@@ -34,11 +34,11 @@ n=n/10;
     printf("%d\n",max);
     printf("%d\n",revmax);
     if(revmax==max){
-        printf("palindrome");
+        printf("palindrome\n");
 
     }
     else{
-        printf("not palindrome");
+        printf("not palindrome\n");
     }
     if(arm==max){
         printf("armstrong");
