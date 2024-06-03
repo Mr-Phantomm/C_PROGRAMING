@@ -2,6 +2,8 @@
     "files.associations": {
         "12.C": "cpp",
         "16.C": "cpp",
-        "25.C": "cpp"
+        "25.C": "cpp",
+        "stdio.h": "c",
+        "string.h": "c"
     }
 }
