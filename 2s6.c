@@ -48,35 +48,35 @@
 //         printf("not analgams");
 //      }
 // }
-#include<stdio.h>
-#include<string.h>
-int main() {
-    char str[1000];
-    fgets(str,1000,stdin);
-    int arr[1000]={0};
-    int words=0;
-    for(int i=0;i<strlen(str);i++){
-        words=0;
-        if(arr[i]==0){
-            for(int j=0;j<strlen(str);j++){
-                if(i!=j){
-                    if(str[i]==str[j]){
-                        words=words+1;
-                        arr[i]=words;
-                    }
-                }
-            }
+// #include<stdio.h>
+// #include<string.h>
+// int main() {
+//     char str[1000];
+//     fgets(str,1000,stdin);
+//     int arr[1000]={0};
+//     int words=0;
+//     for(int i=0;i<strlen(str);i++){
+        
+//         if(arr[i]==0){
+//             for(int j=0;j<strlen(str);j++){
+//                 if(i!=j){
+//                     if(str[i]==str[j]){
+//                         words=words+1;
+//                         arr[i]=words;
+//                     }
+//                 }
+//             }
 
-        }
+//         }
 
-    }
-    for(int j=0;j<strlen(str);j++){
-        if(arr[j]!=0){
-            printf("%c%d",str[j],arr[j]);
-        }
-    }
-	return 0;
-}
+//     }
+//     for(int j=0;j<strlen(str);j++){
+//         if(arr[j]!=0){
+//             printf("%c%d",str[j],arr[j]);
+//         }
+//     }
+// 	return 0;
+// }
 // #include <stdio.h>
 // #include <string.h>
 

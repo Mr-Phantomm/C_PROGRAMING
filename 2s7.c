@@ -133,7 +133,7 @@ int main(){
     for(int j=1;j<5;j++){
         max=(max>arr[j]?max:arr[j]);
     }
-    for(int j=1;j<5;j++){
+    for(int j=0;j<5;j++){
         if(arr[j]!=max){
         max2=(max2>arr[j]?max2:arr[j]);
     }}
